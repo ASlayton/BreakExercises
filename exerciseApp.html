@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Palindrome</title>
+  </head>
+  <body>
+    <header>
+      <h1>Christmas Break Exercises</h1>
+    </header>
+    <div>
+      <h1>Palindrome Problem</h1>
+      <h3>The Problem:</h3>
+      <p>The word or whole phrase which has the same sequence of letters in both directions is called a palindrome. As you can see, case of the letters is ignored. Spaces and punctuations are ignored too.  Your goal in this programming exercise is to write a method that determines whether a phrase represents a palindrome or not.</p>
+      <p>Insert text:</p>
+      <input type="text" id="myPhrase">
+      <button onCLick="isPalindrome()">Ok.</button>
+      <h3>Solution:</h3>
+      <p id="answerPalindrome"></p>
+    </div>
+    <div>
+      <h1>Josephus Problem</h1>
+      <h3>The Problem:</h3>
+      <p>At some point there was a war, and during one of its battles defendants were blocked by attackers in the cave. To avoid capture they decided to stand in a circle and kill each third until only one person remained. That person was supposed to commit suicide. He eventually decided to just surrender. ¯\(ツ)/¯. Apparently this is a real thing that happened and the guy's name was Josephus.</p>
+      <p>Your task is to write a method called LastPersonStanding that, for a given number of people numberOfPeople and killing interval killingInterval, determines the position of the person who remains alive - i.e. the Josephus position. For example if there are 10 people and they kill every third person:</p>
+      <p>Enter Number of Defenders:</p>
+      <input type="text" id="defenders">
+      <p>Enter killing interval:</p>
+      <input type="text" id="killingInterval">
+      <button onClick="lastPersonStanding()">Go!</button>
+      <h3>Solution:</h3>
+      <p id="luckyMan"></p>
+    </div>
+
+    <script src="./palindrome.js"></script>
+    <script src="./josephus.js"></script>
+  </body>
+</html>
